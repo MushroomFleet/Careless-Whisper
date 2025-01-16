@@ -1,4 +1,4 @@
-# 🎙️ Tiny Whisper Speech-to-Text Converter
+# 🎙️ Careless Whisper Speech-to-Paste
 
 A user-friendly local application for converting speech to text using OpenAI's Whisper model. This tool provides a web interface for transcribing audio from either microphone recordings or uploaded audio files.
 
