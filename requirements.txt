@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+openai-whisper
+gradio>=4.44.1
+soundfile
+numpy
+pyperclip
