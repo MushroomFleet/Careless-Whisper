@@ -208,14 +208,9 @@ def create_interface():
                             label="Audio Input",
                             sources=["microphone", "upload"],
                             type="filepath",
-                            streaming=False,
-                            min_length=1,
-                            max_length=300,
-                            autoplay=False,
                             show_label=True,
                             elem_id="audio-input",
-                            format="wav",  # Explicitly set format
-                            waveform_options={"sample_rate": 16000},  # Set consistent sample rate
+                            format="wav",
                             interactive=True
                         )
                         
@@ -232,8 +227,7 @@ def create_interface():
                             label="Transcription Result",
                             placeholder="Transcription will appear here...",
                             lines=10,
-                            interactive=False,
-                            show_copy_button=True
+                            interactive=False
                         )
                         
                         # Add status message for copy operation
@@ -361,8 +355,5 @@ if __name__ == "__main__":
         server_name="127.0.0.1",
         server_port=7860,
         share=False,
-        inbrowser=True,
-        show_api=False,
-        auth=None,
-        favicon_path=None
+        inbrowser=True
     )
